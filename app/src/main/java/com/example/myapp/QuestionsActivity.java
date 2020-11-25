@@ -137,6 +137,7 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
         startTimer();
         questionNumber=0;
     }
+    // setting timer
     private void startTimer() {
 
         countDownTimer=new CountDownTimer(12000,1000) {
@@ -211,6 +212,7 @@ if (selectedOption==questionList.get(questionNumber).getCorrectAns())
     private void changeQuestion() {
         if (questionNumber<questionList.size()-1){
             questionNumber++;
+            // changing question option
             playAnim(question,0,0);
             playAnim(option1,0,1);
             playAnim(option2,0,2);
