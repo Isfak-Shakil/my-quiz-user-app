@@ -82,7 +82,7 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
         getQuestionsList();
 
     }
-
+// getting question
     private void getQuestionsList() {
      questionList.clear();
         firestore.collection("QUIZ").document(catList.get(selected_cat_index).getId())
