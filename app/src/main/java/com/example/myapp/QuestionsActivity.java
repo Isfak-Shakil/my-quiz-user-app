@@ -45,6 +45,7 @@ public class QuestionsActivity extends AppCompatActivity implements View.OnClick
         private List<Question> questionList;
         private FirebaseFirestore firestore;
         private  int setNo;
+        // gg
         private Dialog  loadingDialog;
     private int questionNumber;
     private CountDownTimer countDownTimer;
